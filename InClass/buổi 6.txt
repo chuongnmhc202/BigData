@@ -1,0 +1,11 @@
+Một số phương pháp tính khoảng cách phổ biến như sau:
+
+Khoảng cách Euclid (Euclidean distance): là khoảng cách thẳng đoạn nối giữa hai điểm trong không gian Euclid. Nó được tính bằng cách lấy căn bậc hai của tổng bình phương của sự khác biệt giữa các thành phần tương ứng của hai điểm.
+
+Khoảng cách Mahalanobis (Mahalanobis distance): là khoảng cách giữa hai điểm trong một không gian đa chiều tính theo độ lệch chuẩn của các giá trị của chúng so với giá trị trung bình và độ lệch chuẩn chung của các chiều.
+
+Khoảng cách Cosine (Cosine distance): là khoảng cách được sử dụng trong học máy để tính độ tương đồng giữa các vectơ, đo lường sự tương quan giữa chúng.
+
+Khoảng cách Jaccard (Jaccard distance): là khoảng cách đo độ khác nhau giữa hai tập hợp. Nó được tính bằng cách lấy số phần tử không chung giữa hai tập hợp chia cho tổng số phần tử của hai tập hợp.
+
+Khoảng cách Manhattan (Manhattan distance): còn được gọi là khoảng cách đô thành hoặc khoảng cách L1, là khoảng cách đo độ khác biệt giữa hai điểm trên một lưới được xác định bởi khoảng cách theo chiều dọc và chiều ngang

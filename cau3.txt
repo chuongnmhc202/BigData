@@ -1,0 +1,13 @@
+	Đọc dữ liệu từ file CSV và chuyển đổi sang định dạng DataFrame
+	Thực hiện một số hoạt động để chuẩn hóa và sắp xếp dữ liệu ratings theo thứ tự tăng dần của người dùng sử dụng câu lệnh. Hiển thị schema và 20 dòng đầu tiên của DataFrame
+	Tách dữ liệu thành hai tập train và test, tập train là toàn bộ dữ liệu, tập test là các đánh giá từ người dùng có ID từ 71  và các sản phẩm có ID từ 401.
+	Xây dựng mô hình ALS Đưa dữ liệu kiểm tra vào mô hình để dự đoán đánh giá của người dùng  		sử dụng thuật toán MSETính toán kết quả tương quan Pearson giữa dự đoán và thực tế sau đó 	Hiển thị kết quả
+
+Thuận lợi trong đoạn code
+- hiệu suất tính toán sử dụng Apache Spark giúp tăng tốc độ xử lý và tính toán dữ liệu lớn
+- tính linh hoạt 
+- dễ sử dụng cho người mới học
+Hạn chế
+- Giới hạn của thuật toán chỉ phù hợp với các tập dữ liệu đánh giá phân loại (như đánh giá sao từ 1 đến 5), mà không phù hợp cho các tập dữ liệu với đánh giá liên tục.
+Thời gian chạy: đòi hỏi thời gian train và đánh giá
+Khó khăn trong điều chỉnh tham số

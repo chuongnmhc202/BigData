@@ -1,0 +1,12 @@
+hadoop fs -mkdir -p /chuong/lab03/input
+hdfs dfs -put /home/chuong/WHO-COVID-19-20210601-213841.tsv /chuong/lab03/input
+hdfs dfs -ls /chuong/lab03/input
+hdfs dfs -cat /chuong/lab03/input/WHO-COVID-19-20210601-213841.tsv
+
+hdfs dfs -touchz /chuong/lab03/ASEANCaseCount.java
+hdfs dfs -rm /chuong/lab03/ASEANCaseCount.java
+hdfs dfs -put /home/chuong/ASEANCaseCount.java /chuong/lab03/input
+
+bin/hadoop com.sun.tools.javac.Main /chuong/lab03/input/ASEANCaseCount.java
+
+jar cf wc.jar ASEANCaseCount*.class

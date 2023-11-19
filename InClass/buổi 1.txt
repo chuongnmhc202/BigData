@@ -1,0 +1,13 @@
+Day 1
+Trắc nghiệm
+
+Khai thác dữ liệu = trích xuất thông tin hành động từ (thường) các bộ dữ liệu rất lớn, là chủ đề của sự cường điệu, sợ hãi và quan tâm cực độ
+- phương pháp miêu tả
+▪ Tìm các mẫu mà con người có thể hiểu được
+mô tả dữ liệu
+▪ Ví dụ: Phân cụm
+
+- Phương pháp dự đoán
+▪ Sử dụng một số biến để dự đoán ẩn số
+hoặc giá trị tương lai của các biến khác
+▪ Ví dụ: Người giới thiệu
